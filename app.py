@@ -254,3 +254,5 @@ if run_btn:
                     for m in result["Mitigation Strategy"]:
                         st.markdown(f"- {m}")
                     if show_eli5 and "ELI5" in explanation:
+                       st.write(explanation)
+
