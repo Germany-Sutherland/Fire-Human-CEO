@@ -253,4 +253,4 @@ if run_btn:
                     st.markdown("**Mitigation Strategy:**")
                     for m in result["Mitigation Strategy"]:
                         st.markdown(f"- {m}")
-                    if show_eli5 and "E_
+                    if show_eli5 and "ELI5" in explanation:
